@@ -144,7 +144,7 @@ knopka_3.pack(side=tk.LEFT)
 knopka_4 = tk.Button(frame_for_button, height=100, width=5, text='Х', font='Arial 11', command=quit)
 knopka_4.pack(side=tk.LEFT)
 
-keyboard.add_hotkey('Ctrl + C + Shift', p_e_c_for_keyboard)   # Клавиши для обработки текста в фоне
+keyboard.add_hotkey('Ctrl + c + Shift', p_e_c_for_keyboard)   # Клавиши для обработки текста в фоне
 
 window.protocol('WM_DELETE_WINDOW', withdraw_window)  # Вызов меню из трея
 window.mainloop()
