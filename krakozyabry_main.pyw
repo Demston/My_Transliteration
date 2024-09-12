@@ -30,7 +30,9 @@ def show_menu(e):
 
 window = tk.Tk()  # Создадим окно и области под текст и кнопки
 window.title('Перевод с эльфийского')
-window.geometry('500x260-25-45')
+# window.geometry('500x260-25-45')
+window.geometry('500x260')
+window.eval('tk::PlaceWindow . center')
 window.resizable(False, False)
 # window.iconphoto(tk.PhotoImage(file='icon.ico'))
 frame_text_undo = tk.Frame(window, background='#EEEEEE')
